@@ -90,7 +90,9 @@
 <li class="chapter" data-level="2.2.2" data-path="cálculo-diferencial-em-mathbbr.html"><a href="cálculo-diferencial-em-mathbbr.html#exemplo-2"><i class="fa fa-check"></i><b>2.2.2</b> Exemplo 2</a></li>
 <li class="chapter" data-level="2.2.3" data-path="cálculo-diferencial-em-mathbbr.html"><a href="cálculo-diferencial-em-mathbbr.html#exemplo-3"><i class="fa fa-check"></i><b>2.2.3</b> Exemplo 3</a></li>
 </ul></li>
-<li class="chapter" data-level="2.3" data-path="cálculo-diferencial-em-mathbbr.html"><a href="cálculo-diferencial-em-mathbbr.html#derivadas-laterais"><i class="fa fa-check"></i><b>2.3</b> Derivadas laterais</a></li>
+<li class="chapter" data-level="2.3" data-path="cálculo-diferencial-em-mathbbr.html"><a href="cálculo-diferencial-em-mathbbr.html#derivadas-laterais"><i class="fa fa-check"></i><b>2.3</b> Derivadas laterais</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="cálculo-diferencial-em-mathbbr.html"><a href="cálculo-diferencial-em-mathbbr.html#exemplo-1-1"><i class="fa fa-check"></i><b>2.3.1</b> Exemplo 1</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="intro.html"><a href="intro.html#primitivas"><i class="fa fa-check"></i><b>3</b> Primitivas</a></li>
 <li class="chapter" data-level="4" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>4</b> Applications</a><ul>
@@ -227,7 +229,37 @@ f&#39;(3)&amp;= \underset{x\rightarrow 3}{\lim}\frac{f(x)-f(3)}{x-3}\\
 <h2><span class="header-section-number">2.3</span> Derivadas laterais</h2>
 <iframe scrolling="no" title="derLatEx1" src="https://www.geogebra.org/material/iframe/id/ws6xn2bj/width/832/height/466/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="832px" height="466px" style="border:0px;">
 </iframe>
+<div id="exemplo-1-1" class="section level3">
+<h3><span class="header-section-number">2.3.1</span> Exemplo 1</h3>
+<p>Consideremos a função <span class="math inline">\(f\)</span>, real de variável real, definida por
+<span class="math display">\[
+\left\{
+\begin{array}{ll}
+2x-1 &amp;\mbox{ se }x \leq 1\\
+x^2-3&amp;\mbox{ se }x &gt; 1\\
+\end{array}
+\right.
+\]</span>
+Verifiquemos se <span class="math inline">\(f\)</span> admite derivada no ponto <span class="math inline">\(x=1\)</span>. Temos
+<span class="math display">\[
+\begin{array}{ll}
+f(1^{-})&amp;=\underset{x\rightarrow 1^{-}}{\lim} \dfrac{f(x)-f(1)}{x-1}\\
+&amp;=\underset{x\rightarrow 1^{-}}{\lim} \dfrac{2x-1-1}{x-1}=\dfrac{0}{0}\mbox{ (ind.)}\\
+&amp;=\underset{x\rightarrow 1^{-}}{\lim} \dfrac{2x-2}{x-1}\\
+&amp;=\underset{x\rightarrow 1^{-}}{\lim} \dfrac{2(x-1)}{x-1}\\
+&amp;=\underset{x\rightarrow 1^{-}}{\lim} 2\\
+&amp;=2
+\end{array}
+\]</span></p>
+<p><span class="math display">\[
+\begin{array}{ll}
+f(1^{+})&amp;=\underset{x\rightarrow 1^{+}}{\lim} \dfrac{f(x)-f(1)}{x-1}\\
+&amp;=\underset{x\rightarrow 1^{+}}{\lim} \dfrac{x^2-3-1}{x-1}\\
+&amp;= \dfrac{1-4}{1-1}=-\infty
+\end{array}
+\]</span></p>
 
+</div>
 </div>
 </div>
             </section>

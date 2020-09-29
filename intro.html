@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Métodos Quantitativos</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Métodos Quantitativos" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Métodos Quantitativos" />
+  
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Augusto Eusébio" />
+
+
+<meta name="date" content="2020-09-29" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="cálculo-diferencial-em-mathbbr.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introdução</a><ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#planeamento"><i class="fa fa-check"></i><b>1.1</b> Planeamento</a></li>
+<li class="chapter" data-level="1.2" data-path="intro.html"><a href="intro.html#objetivos"><i class="fa fa-check"></i><b>1.2</b> Objetivos</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="intro.html"><a href="intro.html#cálculo-diferencial-em-mathbbr"><i class="fa fa-check"></i><b>1.2.1</b> Cálculo diferencial em <span class="math inline">\(\mathbb{R}\)</span></a></li>
+<li class="chapter" data-level="1.2.2" data-path="intro.html"><a href="intro.html#primitivas"><i class="fa fa-check"></i><b>1.2.2</b> Primitivas</a></li>
+<li class="chapter" data-level="1.2.3" data-path="intro.html"><a href="intro.html#cálculo-integral"><i class="fa fa-check"></i><b>1.2.3</b> Cálculo Integral</a></li>
+<li class="chapter" data-level="1.2.4" data-path="intro.html"><a href="intro.html#funções-reais-de-várias-variáveis-reais"><i class="fa fa-check"></i><b>1.2.4</b> Funções reais de várias variáveis reais</a></li>
+<li class="chapter" data-level="1.2.5" data-path="intro.html"><a href="intro.html#matrizes-determinantes-e-sistemas-de-equações-lineares"><i class="fa fa-check"></i><b>1.2.5</b> Matrizes, determinantes e sistemas de equações lineares</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html#cálculo-diferencial-em-mathbbr"><i class="fa fa-check"></i><b>2</b> Cálculo Diferencial em <span class="math inline">\(\mathbb{R}\)</span></a><ul>
+<li class="chapter" data-level="2.1" data-path="cálculo-diferencial-em-mathbbr.html"><a href="cálculo-diferencial-em-mathbbr.html"><i class="fa fa-check"></i><b>2.1</b> Objetivo: Interpretar o conceito de derivada.</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="cálculo-diferencial-em-mathbbr.html"><a href="cálculo-diferencial-em-mathbbr.html#tangente-ao-gráfico-de-uma-função-num-ponto"><i class="fa fa-check"></i><b>2.1.1</b> Tangente ao gráfico de uma função num ponto</a></li>
+<li class="chapter" data-level="2.1.2" data-path="cálculo-diferencial-em-mathbbr.html"><a href="cálculo-diferencial-em-mathbbr.html#derivada-de-uma-função-num-ponto"><i class="fa fa-check"></i><b>2.1.2</b> Derivada de uma função num ponto</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="cálculo-diferencial-em-mathbbr.html"><a href="cálculo-diferencial-em-mathbbr.html#cálculo-da-derivada-de-uma-função-num-ponto"><i class="fa fa-check"></i><b>2.2</b> Cálculo da derivada de uma função num ponto</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="cálculo-diferencial-em-mathbbr.html"><a href="cálculo-diferencial-em-mathbbr.html#exemplo-1"><i class="fa fa-check"></i><b>2.2.1</b> Exemplo 1</a></li>
+<li class="chapter" data-level="2.2.2" data-path="cálculo-diferencial-em-mathbbr.html"><a href="cálculo-diferencial-em-mathbbr.html#exemplo-2"><i class="fa fa-check"></i><b>2.2.2</b> Exemplo 2</a></li>
+<li class="chapter" data-level="2.2.3" data-path="cálculo-diferencial-em-mathbbr.html"><a href="cálculo-diferencial-em-mathbbr.html#exemplo-3"><i class="fa fa-check"></i><b>2.2.3</b> Exemplo 3</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="cálculo-diferencial-em-mathbbr.html"><a href="cálculo-diferencial-em-mathbbr.html#derivadas-laterais"><i class="fa fa-check"></i><b>2.3</b> Derivadas laterais</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="intro.html"><a href="intro.html#primitivas"><i class="fa fa-check"></i><b>3</b> Primitivas</a></li>
+<li class="chapter" data-level="4" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>4</b> Applications</a><ul>
+<li class="chapter" data-level="4.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>4.1</b> Example one</a></li>
+<li class="chapter" data-level="4.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>4.2</b> Example two</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>5</b> Final Words</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Métodos Quantitativos</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Métodos Quantitativos</h1>
+<p class="author"><em>Augusto Eusébio</em></p>
+<p class="date"><em>2020-09-29</em></p>
+</div>
+<div id="intro" class="section level1">
+<h1><span class="header-section-number">Chapter 1</span> Introdução</h1>
+<p>Este trabalho é o resultado da escrita de vários textos, publicados em versão eletrónica ao longo de vários anos, para apoio às aulas da Unidade Curricular de Métodos Quantitativos dos cursos de Licenciatura em Contabilidade e Finanças e Gestão da Escola Superior de Tecnologia e Gestão do Instituto Politécnico de Leiria. Desta forma, os capítulos enquadram-se na sequência com que usualmente os conteúdos são lecionados.</p>
+<p>Foi nossa preocupação apresentar de forma sucinta os conceitos e resultados que fazem parte dos conteúdos programáticos em questão. Em cada capítulo são apresentados vários exemplos
+ilustrativos e exercícios cuja resolução deixamos a cargo dos estudantes. O Capítulo 1 tem como noção fundamental a derivada de uma função real de uma variável real, cujo estudo uma parte
+dos estudantes iniciou no ensino secundário. No Capítulo 2 são abordadas de forma resumida noções relacionadas com funções reais de várias variáveis reais, se bem que, tendo em conta os
+objetivos a que nos propomos, seja dado um maior relevo a funções reais de duas variáveis reais. No Capítulo 3 são expostos alguns métodos de resolução de primitivas; apresentamos, contudo, apenas os mais frequentemente aplicados nos cursos referidos. O Capítulo 4 é dedicado à apresentação do
+Integral de Riemann e de algumas das suas aplicações. No Capítulo 5 estudam-se algumas equações diferenciais ordinárias de primeira ordem. São apresentados alguns exemplos de fenómenos da vida real que são modelados por equações diferenciais e mostram a sua aplicabilidade. No Capítulo
+6 estudam-se as operações e propriedades mais importantes da teoria elementar de matrizes. É feita também uma breve abordagem do determinante de uma matriz. Procede-se, por fim, a uma aplicação das matrizes e determinantes na resolução de sistemas de equações lineares.</p>
+<p>Ao longo deste trabalho, não foram fundamentados alguns dos conceitos matemáticos apresentados. O nosso principal objetivo, porém, é fornecer aos estudantes um guia para que lhes seja mais fácil acompanhar as aulas e desenvolver o seu próprio trabalho.</p>
+<p>Expressamos, por fim, o nosso agradecimento ao Instituto Politécnico de Leiria, por todo o apoio facultado na publicação deste trabalho.</p>
+<div id="planeamento" class="section level2">
+<h2><span class="header-section-number">1.1</span> Planeamento</h2>
+<ol style="list-style-type: decimal">
+<li>Cálculo diferencial em R
+<ol style="list-style-type: lower-alpha">
+<li>Derivadas
+<ol style="list-style-type: lower-roman">
+<li>Derivada de uma função num ponto <strong>(1 aula)</strong></li>
+<li>Derivadas laterais de uma função num ponto <strong>(1 aula)</strong></li>
+<li>Derivabilidade e continuidade de uma função num ponto<br />
+</li>
+<li>Função derivada<br />
+</li>
+<li>Regras de derivação <strong>(1 aula)</strong></li>
+<li>Derivadas de ordem superior a um<br />
+</li>
+<li>Regra de Cauchy <strong>(1 aula)</strong></li>
+</ol></li>
+<li>Aplicações das derivadas <strong>(1 aula)</strong>
+<ol style="list-style-type: lower-roman">
+<li>Sentido de variação de uma função real de variável real<br />
+</li>
+<li>Extremos relativos de uma função real de variável real<br />
+</li>
+<li>Formulação e resolução de problemas de aplicação de interesse prático, usando o estudo dos extremos de uma função<br />
+</li>
+</ol></li>
+</ol></li>
+<li>Primitivas
+<ol style="list-style-type: lower-alpha">
+<li>Primitiva e integral indefinido: Definição e Propriedades<br />
+</li>
+<li>Técnicas de Primitivação <strong>(1 aula)</strong>
+<ol style="list-style-type: lower-roman">
+<li>Primitivas imediatas<br />
+</li>
+<li>Primitivação por partes <strong>(1 aula)</strong></li>
+<li>Primitivação por substituição de variável <strong>(1 aula)</strong></li>
+<li>Primitivação de frações racionais (denominadores com raízes reais)<br />
+</li>
+</ol></li>
+<li>Equações diferencias ordinárias (EDO)
+<ol style="list-style-type: lower-roman">
+<li>Noção de diferencial de uma função<br />
+</li>
+<li>Definição de EDO<br />
+</li>
+<li>Solução de uma EDO <strong>(1 aula)</strong></li>
+<li>Resolução de EDO de 1 a ordem<br />
+A. Forma de uma EDO: forma normal ou forma diferencial<br />
+B. Resolução por integração direta <strong>(1 aula)</strong>
+C. Equações diferenciais de variáveis separáveis<br />
+</li>
+</ol></li>
+</ol></li>
+<li>Cálculo Integral
+<ol style="list-style-type: lower-alpha">
+<li>Definição e Propriedades<br />
+</li>
+<li>Teorema fundamental do cálculo integral <strong>(1 aula)</strong></li>
+<li>Aplicações do cálculo integral
+<ol style="list-style-type: lower-roman">
+<li>Cálculo de áreas de figuras planas <strong>(1 aula)</strong></li>
+<li>Variação do valor de uma função num intervalo<br />
+</li>
+<li>Valor médio de uma função num intervalo<br />
+</li>
+</ol></li>
+</ol></li>
+<li>Funções reais de várias variáveis reais
+<ol style="list-style-type: lower-alpha">
+<li>Generalidades: Definição de função real de várias variáveis reais<br />
+</li>
+<li>Funções reais de duas variáveis reais
+<ol style="list-style-type: lower-roman">
+<li>Determinação e representação do domínio <strong>(1 aula)</strong></li>
+<li>Interpretação geométrica de limite e de continuidade; relação entre os dois conceitos<br />
+</li>
+<li>Derivadas parciais <strong>(1 aula)</strong>
+A. Definição, cálculo e representação gráfica das derivadas parciais de primeira ordem<br />
+B. Definição e cálculo das derivadas parciais de ordem superior<br />
+</li>
+<li>Função composta<br />
+</li>
+<li>Estudo de extremos livres de funções de duas variáveis <strong>(1 aula)</strong></li>
+</ol></li>
+</ol></li>
+<li>Matrizes, determinantes e sistemas de equações lineares
+<ol style="list-style-type: lower-alpha">
+<li>Definição de matriz<br />
+</li>
+<li>Tipos particulares de matrizes<br />
+</li>
+<li>Operações com matrizes <strong>(1 aula)</strong></li>
+<li>Característica de uma matriz
+<ol style="list-style-type: lower-roman">
+<li>Operações elementares<br />
+</li>
+<li>Condensação de uma matriz <strong>(1 aula)</strong>
+A. Definição de característica de uma matriz<br />
+B. Cálculo da característica de uma matriz.<br />
+</li>
+</ol></li>
+<li>Determinantes <strong>(1 aula)</strong>
+<ol style="list-style-type: lower-roman">
+<li>Definição<br />
+</li>
+<li>Propriedades básicas dos determinantes<br />
+</li>
+<li>Cálculo de determinantes<br />
+</li>
+</ol></li>
+<li>Inversão de matrizes: <strong>(1 aula)</strong>
+<ol style="list-style-type: lower-roman">
+<li>Definição e propriedades da matriz inversa<br />
+</li>
+<li>Método da matriz adjunta<br />
+</li>
+</ol></li>
+<li>Sistemas de equações lineares <strong>(1 aula)</strong>
+<ol style="list-style-type: lower-roman">
+<li>Notação matricial<br />
+</li>
+<li>Classificação de sistemas<br />
+</li>
+<li>Resolução de sistemas<br />
+A. Método de eliminação de Gauss<br />
+B. Regra de Cramer <strong>(1 aula)</strong>
+C. Método da matriz inversa</li>
+</ol></li>
+</ol></li>
+</ol>
+</div>
+<div id="objetivos" class="section level2">
+<h2><span class="header-section-number">1.2</span> Objetivos</h2>
+<div id="cálculo-diferencial-em-mathbbr" class="section level3">
+<h3><span class="header-section-number">1.2.1</span> Cálculo diferencial em <span class="math inline">\(\mathbb{R}\)</span></h3>
+<ul>
+<li><p>Interpretar gráficamente da definição de derivada num ponto.</p></li>
+<li><p>Aplicar a definição de derivada.</p></li>
+<li><p>Calcular as derivadas laterais de uma função num ponto.</p></li>
+<li><p>Interpretar gráficamente da definição de derivada lateral.</p></li>
+<li><p>Saber que uma função com derivada num ponto é contínua nesse ponto</p></li>
+<li><p>Saber o que é a função derivada</p></li>
+<li><p>Calcular a função derivada utilizando as regras de derivação</p></li>
+<li><p>Calcular derivadas de ordem superior à primeira.</p></li>
+<li><p>Utilizar a regra de Cauchy no cálculo de limites.</p></li>
+<li><p>Aplicar a noção de derivada ao cálculo de extremos, e à determinação da monotonia de uma função.</p></li>
+</ul>
+</div>
+<div id="primitivas" class="section level3">
+<h3><span class="header-section-number">1.2.2</span> Primitivas</h3>
+<ul>
+<li>Saber definir primitiva de uma função</li>
+</ul>
+<p>-Saber utilizar as principais propriedades das operações com primitivas.</p>
+<ul>
+<li><p>Utilizar as técnicas<br />
+- Primitivas imediatas<br />
+- Primitivação por partes<br />
+- Primitivação por substituição de variável<br />
+- Primitivação de frações racionais (denominadores com raízes reais)<br />
+no cálculo de primitivas.</p></li>
+<li><p>Definir EDO<br />
+- aplicar o conceito de solução de uma EDO<br />
+- Resolver uma EDO de variáveis separáveis.</p></li>
+</ul>
+</div>
+<div id="cálculo-integral" class="section level3">
+<h3><span class="header-section-number">1.2.3</span> Cálculo Integral</h3>
+<ul>
+<li>Definir e utilizar as propriedades do integral definido<br />
+</li>
+<li>Utilizar o teorema fundamental do cálculo integral no cálculo do valor de um integral definido<br />
+</li>
+<li>Utilizar a noção de integral no cálculo de áreas de figuras planas, do valor de uma função num intervalo, do valor médio de uma função num intervalo</li>
+</ul>
+</div>
+<div id="funções-reais-de-várias-variáveis-reais" class="section level3">
+<h3><span class="header-section-number">1.2.4</span> Funções reais de várias variáveis reais</h3>
+<ul>
+<li>Definir uma função real de várias variáveis reais<br />
+</li>
+<li>Determinar e representar gráficamente o domínio de uma função real de duas variáveis reais<br />
+</li>
+<li>Calcular derivadas parciais</li>
+<li>Calcular e classificar extremos livres de funções de duas variáveis</li>
+</ul>
+</div>
+<div id="matrizes-determinantes-e-sistemas-de-equações-lineares" class="section level3">
+<h3><span class="header-section-number">1.2.5</span> Matrizes, determinantes e sistemas de equações lineares</h3>
+<ul>
+<li><p>Definir matriz</p></li>
+<li><p>Conhecer os tipos particulares de matrizes</p></li>
+<li><p>Saber operar matrizes</p></li>
+<li><p>Calcular a característica de uma matriz através da condensação</p></li>
+<li><p>Calcular determinantes de matrizes</p></li>
+<li><p>Calcular a inversa de uma matrizes</p></li>
+<li><p>Resolver sistemas de equações lineares utilizando os métodos<br />
+- eliminação de Gauss com substituição para trás<br />
+- regra de Cramer<br />
+- matriz inversa</p></li>
+</ul>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="cálculo-diferencial-em-mathbbr.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/01-intro.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
